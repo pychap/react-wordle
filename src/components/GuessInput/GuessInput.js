@@ -31,12 +31,6 @@ function GuessInput({ handleSubmitGuess }) {
           }}
         />
       </form>
-
-      <p>
-        <strong>Current guess:</strong>
-        <br />
-        {tentativeGuess || ""}
-      </p>
     </>
   );
 }
